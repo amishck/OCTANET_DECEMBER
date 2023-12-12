@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ACK2 shoes page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="images/mylogo.png"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#varieties" class="nav-link">SHOP</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="images\1.png" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Step into style<br>–ACK2 shoes</h1>
+          <h2>
+            Elevate your style with our quality products.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#varieties';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">SHOP</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="images\2.png" alt="custom" />
+            <h4>Coustomised Shoes</h4>
+          </div>
+          <div class="tile">
+            <img
+                src="images\9.png"
+                alt="office shoes"
+            />
+            <h4>Office Shoes</h4>
+          </div>
+          <div class="tile">
+            <img 
+                src="images\3.png" 
+                alt="Slippers" 
+            />
+            <h4>Slippers</h4>
+          </div>
+          <div class="tile">
+            <img 
+                src="images\4.png" 
+                alt="Top Sellers" 
+                />
+            <h4>Top Sellers</h4>
+          </div>
+          <div class="tile">
+            <img 
+                src="images\6.png" 
+                alt="Casual" 
+            />
+            <h4>casual Shoes</h4>
+          </div>
+          <div class="tile">
+            <img 
+                src="images\8.png" 
+                alt="Sports shoes" 
+            />
+            <h4>Sports Shoes</h4>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images\delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Free Delivery</h5>
+              <p>
+                We proudly offer free Delivery for all orders across India. Your convenience is our priority, and we're excited to deliver your favorite Shoes right to your doorstep without any additional charges.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="images\happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                Rest assured that our commitment to your satisfaction knows no bounds. Our dedicated customer support team is available to assist you and address your inquiries or requests seven days a week. We're just a message away, ensuring that you have access to the assistance you need whenever you need it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
